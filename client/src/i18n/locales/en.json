@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "programs": "Programs",
+    "events": "Events",
+    "resources": "Resources",
+    "contact": "Contact",
+    "donate": "Donate",
+    "getInvolved": "Get Involved",
+    "signIn": "Sign In",
+    "dashboard": "My Dashboard"
+  },
+  "home": {
+    "heroTitle": "You Belong Here.",
+    "heroSubtitle": "I Am Here is a Bronx-based organization delivering life-changing programs in education, careers, mental health, entrepreneurship, and community support — for young women, by people who believe in them.",
+    "heroCta": "Explore Our Programs",
+    "heroCtaSecondary": "Our Story",
+    "missionTitle": "Our Mission",
+    "missionText": "Empower young women regardless of background, immigration status, or circumstance by delivering direct programs that open doors, build confidence, and create lasting change.",
+    "programsTitle": "Programs Built for Real Life",
+    "programsSubtitle": "10 programs designed to meet young women exactly where they are.",
+    "statsTitle": "Real Impact, Real Community",
+    "donateTitle": "Every Dollar Changes a Life",
+    "donateSubtitle": "Your support funds workshops, scholarships, mentorship, and direct community services.",
+    "donateCta": "Support I Am Here"
+  },
+  "programs": {
+    "title": "Our Programs",
+    "subtitle": "From education to entrepreneurship, mental health to financial literacy — we deliver programs that create real opportunity.",
+    "registerCta": "Register Now",
+    "learnMore": "Learn More",
+    "whoItsFor": "Who It's For",
+    "whatToExpect": "What to Expect"
+  },
+  "about": {
+    "title": "About I Am Here",
+    "missionTitle": "Our Mission",
+    "visionTitle": "Our Vision",
+    "valuesTitle": "Our Values",
+    "teamTitle": "Our Team"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have a question, want to partner with us, or just need to talk? We're here.",
+    "name": "Your Name",
+    "email": "Email Address",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send Message",
+    "success": "Your message has been sent! We'll get back to you soon.",
+    "error": "Something went wrong. Please try again."
+  },
+  "donate": {
+    "title": "Make a Difference Today",
+    "subtitle": "Your donation directly funds programs that change lives in the Bronx.",
+    "impact25": "Provides workshop materials for one participant",
+    "impact50": "Funds a prom dress for a young woman",
+    "impact100": "Covers one month of mentorship",
+    "impact250": "Contributes to a scholarship",
+    "custom": "Custom Amount",
+    "monthly": "Make it monthly",
+    "donate": "Donate"
+  },
+  "footer": {
+    "tagline": "Empowering young women in the Bronx with life-changing programs and real support.",
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong.",
+    "backToHome": "Back to Home",
+    "readMore": "Read More",
+    "close": "Close",
+    "required": "Required"
+  }
+}

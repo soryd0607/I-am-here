@@ -1,0 +1,20 @@
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-6);
+}
+
+.resource-card__icon  { font-size: 2rem; }
+.resource-card__title { font-size: var(--text-lg); font-family: var(--font-heading); margin: var(--space-1) 0; }
+.resource-card__desc  { font-size: var(--text-sm); color: var(--color-dark-60); line-height: var(--leading-relaxed); flex: 1; }
+.resource-card__btn   { margin-top: var(--space-3); }
+
+.resource-card .card__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+@media (max-width: 1024px) { .resources-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 768px)  { .resources-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px)  { .resources-grid { grid-template-columns: 1fr; } }

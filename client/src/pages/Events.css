@@ -1,0 +1,12 @@
+.events-coming-soon {
+  text-align: center;
+  max-width: 560px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-6);
+}
+.events-coming-soon__icon { font-size: 4rem; }
+.events-coming-soon h2    { font-size: clamp(2rem, 4vw, var(--text-5xl)); }
+.events-coming-soon p     { font-size: var(--text-lg); color: var(--color-dark-60); }

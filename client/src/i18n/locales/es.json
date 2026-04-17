@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "programs": "Programas",
+    "events": "Eventos",
+    "resources": "Recursos",
+    "contact": "Contacto",
+    "donate": "Donar",
+    "getInvolved": "Involúcrate",
+    "signIn": "Iniciar sesión",
+    "dashboard": "Mi perfil"
+  },
+  "home": {
+    "heroTitle": "Tú Perteneces Aquí.",
+    "heroSubtitle": "I Am Here es una organización del Bronx que ofrece programas que transforman vidas en educación, carreras, salud mental, emprendimiento y apoyo comunitario — para jóvenes mujeres, por personas que creen en ellas.",
+    "heroCta": "Explorar Programas",
+    "heroCtaSecondary": "Nuestra Historia",
+    "missionTitle": "Nuestra Misión",
+    "missionText": "Empoderar a las jóvenes sin importar su origen, estatus migratorio o circunstancias, entregando programas directos que abren puertas, construyen confianza y crean cambios duraderos.",
+    "programsTitle": "Programas Diseñados para la Vida Real",
+    "programsSubtitle": "10 programas diseñados para acompañar a las jóvenes exactamente donde están.",
+    "statsTitle": "Impacto Real, Comunidad Real",
+    "donateTitle": "Cada Dólar Cambia una Vida",
+    "donateSubtitle": "Tu apoyo financia talleres, becas, mentoría y servicios comunitarios directos.",
+    "donateCta": "Apoyar I Am Here"
+  },
+  "programs": {
+    "title": "Nuestros Programas",
+    "subtitle": "Desde educación hasta emprendimiento, salud mental hasta educación financiera — ofrecemos programas que crean oportunidades reales.",
+    "registerCta": "Regístrate Ahora",
+    "learnMore": "Saber Más",
+    "whoItsFor": "¿Para Quién Es?",
+    "whatToExpect": "Qué Esperar"
+  },
+  "about": {
+    "title": "Sobre I Am Here",
+    "missionTitle": "Nuestra Misión",
+    "visionTitle": "Nuestra Visión",
+    "valuesTitle": "Nuestros Valores",
+    "teamTitle": "Nuestro Equipo"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "¿Tienes una pregunta, quieres asociarte con nosotros, o simplemente necesitas hablar? Estamos aquí.",
+    "name": "Tu Nombre",
+    "email": "Correo Electrónico",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "success": "¡Tu mensaje fue enviado! Te responderemos pronto.",
+    "error": "Algo salió mal. Por favor intenta de nuevo."
+  },
+  "donate": {
+    "title": "Haz la Diferencia Hoy",
+    "subtitle": "Tu donación financia directamente programas que cambian vidas en el Bronx.",
+    "impact25": "Proporciona materiales de taller para un participante",
+    "impact50": "Financia un vestido de graduación para una joven",
+    "impact100": "Cubre un mes de mentoría",
+    "impact250": "Contribuye a una beca",
+    "custom": "Monto Personalizado",
+    "monthly": "Hacerlo mensual",
+    "donate": "Donar"
+  },
+  "footer": {
+    "tagline": "Empoderando a las jóvenes del Bronx con programas que transforman vidas y apoyo real.",
+    "rights": "Todos los derechos reservados."
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Algo salió mal.",
+    "backToHome": "Volver al Inicio",
+    "readMore": "Leer Más",
+    "close": "Cerrar",
+    "required": "Requerido"
+  }
+}
