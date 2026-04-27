@@ -20,7 +20,7 @@ router.post('/create-session', async (req, res) => {
         price_data: isRecurring ? undefined : {
           currency: 'usd',
           product_data: {
-            name: 'Donation to I Am Her',
+            name: 'Donation to I Am H.E.R.R',
             description: 'Supporting young women in the Bronx',
           },
           unit_amount: amount * 100,
@@ -28,7 +28,7 @@ router.post('/create-session', async (req, res) => {
         ...(isRecurring ? {
           price_data: {
             currency: 'usd',
-            product_data: { name: 'Monthly Gift — I Am Her' },
+            product_data: { name: 'Monthly Gift — I Am H.E.R.R' },
             unit_amount: amount * 100,
             recurring: { interval: 'month' },
           },

@@ -13,11 +13,18 @@ const STATS = [
   { value: '95%',  label: 'Program Completion', labelEs: 'Tasa de Finalización' },
 ];
 
+const HERR_PILLARS = [
+  { letter: 'H', word: 'Honorable',  wordEs: 'Honorable',    desc: 'You carry yourself with dignity.',        descEs: 'Te llevas con dignidad.' },
+  { letter: 'E', word: 'Empowered',  wordEs: 'Empoderada',   desc: 'You have the tools to rise.',             descEs: 'Tienes las herramientas para surgir.' },
+  { letter: 'R', word: 'Resilient',  wordEs: 'Resiliente',   desc: 'You rise through every storm.',           descEs: 'Te levantas en cada tormenta.' },
+  { letter: 'R', word: 'Royal',      wordEs: 'Real',         desc: 'You were born with a crown.',             descEs: 'Naciste con una corona.' },
+];
+
 const IMPACT_AMOUNTS = [
-  { amount: 25,  label: 'Workshop Materials',    labelEs: 'Materiales de taller' },
-  { amount: 50,  label: 'A Prom Dress',          labelEs: 'Un vestido de graduación' },
+  { amount: 25,  label: 'Workshop Materials',      labelEs: 'Materiales de taller' },
+  { amount: 50,  label: 'A Prom Dress',            labelEs: 'Un vestido de graduación' },
   { amount: 100, label: 'One Month of Mentorship', labelEs: 'Un mes de mentoría' },
-  { amount: 250, label: 'Scholarship Support',   labelEs: 'Apoyo de beca' },
+  { amount: 250, label: 'Scholarship Support',     labelEs: 'Apoyo de beca' },
 ];
 
 const FEATURED_PROGRAMS = PROGRAMS.slice(0, 6);
@@ -38,16 +45,30 @@ export default function Home({ lang = 'en' }) {
             {lang === 'es' ? 'El Bronx, Nueva York' : 'The Bronx, New York'}
           </Badge>
           <h1 id="hero-heading" className="hero__title">
-            {lang === 'es' ? 'Tú Perteneces' : 'You Belong'}{' '}
+            {lang === 'es' ? 'Tú Eres' : 'You Are'}{' '}
             <span className="hero__title-accent">
-              {lang === 'es' ? 'Aquí.' : 'Here.'}
+              {lang === 'es' ? 'H.E.R.R.' : 'H.E.R.R.'}
             </span>
           </h1>
           <p className="hero__subtitle">
             {lang === 'es'
-              ? 'I Am Her es una organización del Bronx que ofrece programas que transforman vidas en educación, carreras, salud mental, emprendimiento y apoyo comunitario — para jóvenes mujeres, por personas que creen en ellas.'
-              : 'I Am Her is a Bronx-based organization delivering life-changing programs in education, careers, mental health, entrepreneurship, and community support — for young women, by people who believe in them.'}
+              ? 'I Am H.E.R.R es una organización del Bronx que empodera a las jóvenes para que sean Honorables, Empoderadas, Resilientes y Reales — con programas directos en educación, carreras, salud mental, emprendimiento y apoyo comunitario.'
+              : 'I Am H.E.R.R is a Bronx-based organization empowering young women to be Honorable, Empowered, Resilient, and Royal — through direct programs in education, careers, mental health, entrepreneurship, and community support.'}
           </p>
+
+          {/* H.E.R.R Acronym Breakdown */}
+          <div className="herr-pillars" aria-label="H.E.R.R stands for">
+            {HERR_PILLARS.map(({ letter, word, wordEs, desc, descEs }) => (
+              <div key={letter + word} className="herr-pill">
+                <span className="herr-pill__letter" aria-hidden="true">{letter}</span>
+                <div className="herr-pill__text">
+                  <span className="herr-pill__word">{lang === 'es' ? wordEs : word}</span>
+                  <span className="herr-pill__desc">{lang === 'es' ? descEs : desc}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+
           <div className="hero__ctas">
             <Button as={Link} to="/programs" variant="primary" size="lg">
               {lang === 'es' ? 'Explorar Programas' : 'Explore Our Programs'}
@@ -79,8 +100,8 @@ export default function Home({ lang = 'en' }) {
             </h2>
             <p className="mission-strip__desc">
               {lang === 'es'
-                ? 'Empoderar a las jóvenes sin importar su origen, estatus migratorio o circunstancias, entregando programas directos que abren puertas, construyen confianza y crean cambios duraderos.'
-                : 'Empower young women regardless of background, immigration status, or circumstance by delivering direct programs that open doors, build confidence, and create lasting change.'}
+                ? 'Empoderar a las jóvenes para que sean Honorables, Empoderadas, Resilientes y Reales — sin importar su origen, estatus migratorio o circunstancias — con programas directos que abren puertas y crean cambios duraderos.'
+                : 'Empower young women to be Honorable, Empowered, Resilient, and Royal — regardless of background, immigration status, or circumstance — through direct programs that open doors and create lasting change.'}
             </p>
           </div>
           <Button as={Link} to="/about" variant="secondary" size="md">
@@ -164,8 +185,8 @@ export default function Home({ lang = 'en' }) {
             <div className="testimonial__quote" aria-hidden="true">"</div>
             <blockquote className="testimonial__text">
               {lang === 'es'
-                ? 'I Am Her cambió mi vida. No solo me dio habilidades — me dio la confianza para creer que realmente puedo.'
-                : 'I Am Her changed my life. It didn\'t just give me skills — it gave me the confidence to believe I actually can.'}
+                ? 'I Am H.E.R.R cambió mi vida. No solo me dio habilidades — me dio la confianza para creer que realmente soy Honorable, Empoderada, Resiliente y Real.'
+                : "I Am H.E.R.R changed my life. It didn't just give me skills — it gave me the confidence to know I am Honorable, Empowered, Resilient, and Royal."}
             </blockquote>
             <cite className="testimonial__author">
               — {lang === 'es' ? 'Participante del programa, 2024' : 'Program Participant, 2024'}
@@ -200,7 +221,7 @@ export default function Home({ lang = 'en' }) {
           </div>
           <div className="donate-cta__btn-wrap">
             <Button as={Link} to="/donate" variant="gold" size="lg">
-              {lang === 'es' ? 'Apoyar I Am Her' : 'Support I Am Her'}
+              {lang === 'es' ? 'Apoyar I Am H.E.R.R' : 'Support I Am H.E.R.R'}
             </Button>
           </div>
         </div>
@@ -215,8 +236,8 @@ export default function Home({ lang = 'en' }) {
             </h2>
             <p>
               {lang === 'es'
-                ? 'Ya sea que quieras inscribirte en un programa, convertirte en mentora o asociarte con nosotros — hay un lugar para ti aquí.'
-                : 'Whether you want to enroll in a program, become a mentor, or partner with us — there\'s a place for you here.'}
+                ? 'Ya sea que quieras inscribirte en un programa, convertirte en mentora o asociarte con nosotros — hay un lugar para ti en I Am H.E.R.R.'
+                : "Whether you want to enroll in a program, become a mentor, or partner with us — there's a place for you at I Am H.E.R.R."}
             </p>
           </div>
           <div className="get-involved__btns">

@@ -24,7 +24,7 @@ export default function Footer({ lang = 'en' }) {
     <footer className="footer" role="contentinfo">
       <div className="footer__main container">
         <div className="footer__brand">
-          <Link to="/" className="footer__logo">I Am Her</Link>
+          <Link to="/" className="footer__logo">I Am H.E.R.R</Link>
           <p className="footer__tagline">
             {lang === 'es'
               ? 'Empoderando a las mujeres jóvenes del Bronx con programas que transforman vidas.'
@@ -32,7 +32,7 @@ export default function Footer({ lang = 'en' }) {
           </p>
           <address className="footer__contact">
             <p>The Bronx, New York</p>
-            <a href="mailto:hello@iamher.org">hello@iamher.org</a>
+            <a href="mailto:hello@iamherr.org">hello@iamherr.org</a>
           </address>
         </div>
 
@@ -81,7 +81,7 @@ export default function Footer({ lang = 'en' }) {
       <div className="footer__bottom">
         <div className="container footer__bottom-inner">
           <p className="footer__copy">
-            © {new Date().getFullYear()} I Am Her.{' '}
+            © {new Date().getFullYear()} I Am H.E.R.R.{' '}
             {lang === 'es' ? 'Todos los derechos reservados.' : 'All rights reserved.'}
           </p>
           <nav className="footer__legal" aria-label="Legal links">

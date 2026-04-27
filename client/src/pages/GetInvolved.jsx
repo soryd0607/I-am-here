@@ -9,7 +9,7 @@ const WAYS = [
   { icon: '🤝', title: 'Become a Mentor',     titleEs: 'Conviértete en Mentora',   desc: 'Share your experience and guide a young woman in the Bronx.',           descEs: 'Comparte tu experiencia y guía a una joven del Bronx.',             link: '/contact', cta: 'Apply to Mentor', ctaEs: 'Solicitar como Mentora' },
   { icon: '💛', title: 'Donate',              titleEs: 'Donar',                    desc: 'Support our programs with a one-time or monthly donation.',             descEs: 'Apoya nuestros programas con una donación única o mensual.',        link: '/donate', cta: 'Donate Now', ctaEs: 'Donar Ahora' },
   { icon: '🤲', title: 'Volunteer',           titleEs: 'Voluntariado',             desc: 'Lend your time and skills to support workshops and community events.',  descEs: 'Presta tu tiempo y habilidades para apoyar talleres y eventos.',    link: '/contact', cta: 'Contact Us', ctaEs: 'Contáctanos' },
-  { icon: '🏢', title: 'Partner With Us',     titleEs: 'Asóciate con Nosotros',    desc: 'Bring I Am Her programming to your school, organization, or business.', descEs: 'Lleva programas de I Am Her a tu escuela, organización o empresa.', link: '/contact', cta: 'Get in Touch', ctaEs: 'Contáctanos' },
+  { icon: '🏢', title: 'Partner With Us',     titleEs: 'Asóciate con Nosotros',    desc: 'Bring I Am H.E.R.R programming to your school, organization, or business.', descEs: 'Lleva programas de I Am H.E.R.R a tu escuela, organización o empresa.', link: '/contact', cta: 'Get in Touch', ctaEs: 'Contáctanos' },
   { icon: '📣', title: 'Spread the Word',     titleEs: 'Corre la Voz',            desc: 'Share our mission with your community. Every share reaches a young woman who needs us.', descEs: 'Comparte nuestra misión. Cada difusión llega a una joven que nos necesita.', link: '/contact', cta: 'Learn More', ctaEs: 'Saber Más' },
 ];
 
@@ -24,8 +24,8 @@ export default function GetInvolved({ lang = 'en' }) {
           </h1>
           <p>
             {lang === 'es'
-              ? 'Ya seas participante, mentora, donante o voluntaria — hay un lugar para ti en I Am Her.'
-              : 'Whether you\'re a participant, mentor, donor, or volunteer — there\'s a place for you at I Am Her.'}
+              ? 'Ya seas participante, mentora, donante o voluntaria — hay un lugar para ti en I Am H.E.R.R.'
+              : 'Whether you\'re a participant, mentor, donor, or volunteer — there\'s a place for you at I Am H.E.R.R.'}
           </p>
         </div>
       </section>

@@ -185,7 +185,7 @@ export default function Contact({ lang = 'en' }) {
               <div className="contact-info__icon" aria-hidden="true">✉️</div>
               <div>
                 <h3>{lang === 'es' ? 'Correo' : 'Email'}</h3>
-                <a href="mailto:hello@iamher.org">hello@iamher.org</a>
+                <a href="mailto:hello@iamherr.org">hello@iamherr.org</a>
               </div>
             </div>
             <div className="contact-info__item">

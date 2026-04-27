@@ -35,8 +35,8 @@ export default function Navbar({ lang = 'en', onLangToggle }) {
   return (
     <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`} role="banner">
       <div className="navbar__inner container">
-        <Link to="/" className="navbar__logo" aria-label="I Am Her — Home">
-          <span className="navbar__logo-text">I Am Her</span>
+        <Link to="/" className="navbar__logo" aria-label="I Am H.E.R.R — Home">
+          <span className="navbar__logo-text">I Am H.E.R.R</span>
         </Link>
 
         <nav className={`navbar__nav ${menuOpen ? 'navbar__nav--open' : ''}`} aria-label="Main navigation">

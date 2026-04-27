@@ -13,7 +13,7 @@
   },
   "home": {
     "heroTitle": "Tú Perteneces Aquí.",
-    "heroSubtitle": "I Am Her es una organización del Bronx que ofrece programas que transforman vidas en educación, carreras, salud mental, emprendimiento y apoyo comunitario — para jóvenes mujeres, por personas que creen en ellas.",
+    "heroSubtitle": "I Am H.E.R.R es una organización del Bronx que ofrece programas que transforman vidas en educación, carreras, salud mental, emprendimiento y apoyo comunitario — para jóvenes mujeres, por personas que creen en ellas.",
     "heroCta": "Explorar Programas",
     "heroCtaSecondary": "Nuestra Historia",
     "missionTitle": "Nuestra Misión",
@@ -23,7 +23,7 @@
     "statsTitle": "Impacto Real, Comunidad Real",
     "donateTitle": "Cada Dólar Cambia una Vida",
     "donateSubtitle": "Tu apoyo financia talleres, becas, mentoría y servicios comunitarios directos.",
-    "donateCta": "Apoyar I Am Her"
+    "donateCta": "Apoyar I Am H.E.R.R"
   },
   "programs": {
     "title": "Nuestros Programas",
@@ -34,7 +34,7 @@
     "whatToExpect": "Qué Esperar"
   },
   "about": {
-    "title": "Sobre I Am Her",
+    "title": "Sobre I Am H.E.R.R",
     "missionTitle": "Nuestra Misión",
     "visionTitle": "Nuestra Visión",
     "valuesTitle": "Nuestros Valores",
