@@ -62,6 +62,12 @@
   color: var(--color-dark-80);
 }
 
+.contact-info__map {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--color-dark-10);
+}
+
 /* Info sidebar */
 .contact-info {
   background: var(--color-white);

@@ -42,7 +42,7 @@ export default function Home({ lang = 'en' }) {
         </div>
         <div className="container hero__content">
           <Badge variant="rose" className="hero__badge">
-            {lang === 'es' ? 'El Bronx, Nueva York' : 'The Bronx, New York'}
+            {lang === 'es' ? '1716 Southern Blvd, Bronx, NY' : '1716 Southern Blvd, Bronx, NY'}
           </Badge>
           <h1 id="hero-heading" className="hero__title">
             {lang === 'es' ? 'Tú Eres' : 'You Are'}{' '}

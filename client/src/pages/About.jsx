@@ -96,7 +96,8 @@ export default function About({ lang = 'en' }) {
           <div className="about-story__visual" aria-hidden="true">
             <div className="about-story__img-placeholder">
               <span>📍</span>
-              <p>The Bronx, New York</p>
+              <p>East Bronx Academy for the Future</p>
+              <p style={{ fontSize: 'var(--text-sm)', opacity: 0.75 }}>1716 Southern Blvd, Bronx, NY 10460</p>
             </div>
           </div>
         </div>

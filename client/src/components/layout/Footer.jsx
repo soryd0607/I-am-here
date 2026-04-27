@@ -31,7 +31,8 @@ export default function Footer({ lang = 'en' }) {
               : 'Empowering young women in the Bronx with life-changing programs and real support.'}
           </p>
           <address className="footer__contact">
-            <p>The Bronx, New York</p>
+            <p>East Bronx Academy for the Future</p>
+            <p>1716 Southern Blvd, Bronx, NY 10460</p>
             <a href="mailto:hello@iamherr.org">hello@iamherr.org</a>
           </address>
         </div>

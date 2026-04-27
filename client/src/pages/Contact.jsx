@@ -178,8 +178,22 @@ export default function Contact({ lang = 'en' }) {
               <div className="contact-info__icon" aria-hidden="true">📍</div>
               <div>
                 <h3>{lang === 'es' ? 'Ubicación' : 'Location'}</h3>
-                <p>The Bronx, New York</p>
+                <p>East Bronx Academy for the Future</p>
+                <p>1716 Southern Blvd</p>
+                <p>Bronx, NY 10460</p>
               </div>
+            </div>
+            <div className="contact-info__map">
+              <iframe
+                title={lang === 'es' ? 'Mapa de ubicación de I Am H.E.R.R' : 'I Am H.E.R.R location map'}
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3018.1!2d-73.8888!3d40.8271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f3b3b3b3b3b3%3A0x0!2s1716+Southern+Blvd%2C+Bronx%2C+NY+10460!5e0!3m2!1sen!2sus!4v1"
+                width="100%"
+                height="180"
+                style={{ border: 0, borderRadius: 'var(--radius-lg)' }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
             </div>
             <div className="contact-info__item">
               <div className="contact-info__icon" aria-hidden="true">✉️</div>
