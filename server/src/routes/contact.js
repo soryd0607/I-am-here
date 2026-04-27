@@ -23,8 +23,8 @@ router.post('/', async (req, res) => {
 
     if (process.env.RESEND_API_KEY) {
       await resend.emails.send({
-        from: 'I Am Here <noreply@iamhere.org>',
-        to: process.env.ADMIN_EMAIL || 'hello@iamhere.org',
+        from: 'I Am Her <noreply@iamher.org>',
+        to: process.env.ADMIN_EMAIL || 'hello@iamher.org',
         subject: `New Contact: ${subject}`,
         html: `
           <h2>New contact message from ${name}</h2>
@@ -36,14 +36,14 @@ router.post('/', async (req, res) => {
       });
 
       await resend.emails.send({
-        from: 'I Am Here <noreply@iamhere.org>',
+        from: 'I Am Her <noreply@iamher.org>',
         to: email,
-        subject: "We got your message — I Am Here",
+        subject: "We got your message — I Am Her",
         html: `
           <p>Hi ${name},</p>
-          <p>Thank you for reaching out to I Am Here! We received your message and will get back to you within 2 business days.</p>
+          <p>Thank you for reaching out to I Am Her! We received your message and will get back to you within 2 business days.</p>
           <p>In the meantime, <a href="${process.env.CLIENT_URL}/programs">explore our programs</a> or <a href="${process.env.CLIENT_URL}/donate">support our work</a>.</p>
-          <p>With love,<br/>The I Am Here Team</p>
+          <p>With love,<br/>The I Am Her Team</p>
         `,
       });
     }

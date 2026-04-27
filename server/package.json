@@ -1,7 +1,7 @@
 {
   "name": "iam-here-server",
   "version": "1.0.0",
-  "description": "I Am Here — API server",
+  "description": "I Am Her — API server",
   "main": "src/index.js",
   "type": "module",
   "scripts": {

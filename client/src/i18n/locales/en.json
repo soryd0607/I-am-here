@@ -13,7 +13,7 @@
   },
   "home": {
     "heroTitle": "You Belong Here.",
-    "heroSubtitle": "I Am Here is a Bronx-based organization delivering life-changing programs in education, careers, mental health, entrepreneurship, and community support — for young women, by people who believe in them.",
+    "heroSubtitle": "I Am Her is a Bronx-based organization delivering life-changing programs in education, careers, mental health, entrepreneurship, and community support — for young women, by people who believe in them.",
     "heroCta": "Explore Our Programs",
     "heroCtaSecondary": "Our Story",
     "missionTitle": "Our Mission",
@@ -23,7 +23,7 @@
     "statsTitle": "Real Impact, Real Community",
     "donateTitle": "Every Dollar Changes a Life",
     "donateSubtitle": "Your support funds workshops, scholarships, mentorship, and direct community services.",
-    "donateCta": "Support I Am Here"
+    "donateCta": "Support I Am Her"
   },
   "programs": {
     "title": "Our Programs",
@@ -34,7 +34,7 @@
     "whatToExpect": "What to Expect"
   },
   "about": {
-    "title": "About I Am Here",
+    "title": "About I Am Her",
     "missionTitle": "Our Mission",
     "visionTitle": "Our Vision",
     "valuesTitle": "Our Values",

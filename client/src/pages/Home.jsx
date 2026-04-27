@@ -45,8 +45,8 @@ export default function Home({ lang = 'en' }) {
           </h1>
           <p className="hero__subtitle">
             {lang === 'es'
-              ? 'I Am Here es una organización del Bronx que ofrece programas que transforman vidas en educación, carreras, salud mental, emprendimiento y apoyo comunitario — para jóvenes mujeres, por personas que creen en ellas.'
-              : 'I Am Here is a Bronx-based organization delivering life-changing programs in education, careers, mental health, entrepreneurship, and community support — for young women, by people who believe in them.'}
+              ? 'I Am Her es una organización del Bronx que ofrece programas que transforman vidas en educación, carreras, salud mental, emprendimiento y apoyo comunitario — para jóvenes mujeres, por personas que creen en ellas.'
+              : 'I Am Her is a Bronx-based organization delivering life-changing programs in education, careers, mental health, entrepreneurship, and community support — for young women, by people who believe in them.'}
           </p>
           <div className="hero__ctas">
             <Button as={Link} to="/programs" variant="primary" size="lg">
@@ -164,8 +164,8 @@ export default function Home({ lang = 'en' }) {
             <div className="testimonial__quote" aria-hidden="true">"</div>
             <blockquote className="testimonial__text">
               {lang === 'es'
-                ? 'I Am Here cambió mi vida. No solo me dio habilidades — me dio la confianza para creer que realmente puedo.'
-                : 'I Am Here changed my life. It didn\'t just give me skills — it gave me the confidence to believe I actually can.'}
+                ? 'I Am Her cambió mi vida. No solo me dio habilidades — me dio la confianza para creer que realmente puedo.'
+                : 'I Am Her changed my life. It didn\'t just give me skills — it gave me the confidence to believe I actually can.'}
             </blockquote>
             <cite className="testimonial__author">
               — {lang === 'es' ? 'Participante del programa, 2024' : 'Program Participant, 2024'}
@@ -200,7 +200,7 @@ export default function Home({ lang = 'en' }) {
           </div>
           <div className="donate-cta__btn-wrap">
             <Button as={Link} to="/donate" variant="gold" size="lg">
-              {lang === 'es' ? 'Apoyar I Am Here' : 'Support I Am Here'}
+              {lang === 'es' ? 'Apoyar I Am Her' : 'Support I Am Her'}
             </Button>
           </div>
         </div>

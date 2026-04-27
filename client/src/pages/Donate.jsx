@@ -43,7 +43,7 @@ export default function Donate({ lang = 'en' }) {
         <div className="container page-hero__content">
           <Badge variant="gold">{lang === 'es' ? 'Haz la diferencia' : 'Make a difference'}</Badge>
           <h1 id="donate-page-heading">
-            {lang === 'es' ? 'Apoya I Am Here' : 'Support I Am Here'}
+            {lang === 'es' ? 'Apoya I Am Her' : 'Support I Am Her'}
           </h1>
           <p>
             {lang === 'es'
@@ -147,8 +147,8 @@ export default function Donate({ lang = 'en' }) {
             <div className="donate-impact__note">
               <p>
                 {lang === 'es'
-                  ? 'I Am Here es una organización sin fines de lucro. Tu donación puede ser deducible de impuestos.'
-                  : 'I Am Here is a nonprofit organization. Your donation may be tax deductible.'}
+                  ? 'I Am Her es una organización sin fines de lucro. Tu donación puede ser deducible de impuestos.'
+                  : 'I Am Her is a nonprofit organization. Your donation may be tax deductible.'}
               </p>
             </div>
           </div>

@@ -95,8 +95,8 @@ export default function ProgramDetail({ lang = 'en' }) {
                 </h2>
                 <p className="register-card__desc">
                   {lang === 'es'
-                    ? 'Regístrate para este programa y comienza tu viaje con I Am Here.'
-                    : 'Register for this program and start your journey with I Am Here.'}
+                    ? 'Regístrate para este programa y comienza tu viaje con I Am Her.'
+                    : 'Register for this program and start your journey with I Am Her.'}
                 </p>
                 <Button
                   as={Link}

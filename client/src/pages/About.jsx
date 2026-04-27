@@ -14,10 +14,10 @@ const VALUES = [
 ];
 
 const TEAM = [
-  { name: 'Founder & Executive Director', role: 'I Am Here', placeholder: true },
-  { name: 'Program Director', role: 'I Am Here', placeholder: true },
-  { name: 'Community Outreach Coordinator', role: 'I Am Here', placeholder: true },
-  { name: 'Mentor Coordinator', role: 'I Am Here', placeholder: true },
+  { name: 'Founder & Executive Director', role: 'I Am Her', placeholder: true },
+  { name: 'Program Director', role: 'I Am Her', placeholder: true },
+  { name: 'Community Outreach Coordinator', role: 'I Am Her', placeholder: true },
+  { name: 'Mentor Coordinator', role: 'I Am Her', placeholder: true },
 ];
 
 export default function About({ lang = 'en' }) {
@@ -30,7 +30,7 @@ export default function About({ lang = 'en' }) {
             {lang === 'es' ? 'Nuestra historia' : 'Our story'}
           </Badge>
           <h1 id="about-heading">
-            {lang === 'es' ? 'Sobre I Am Here' : 'About I Am Here'}
+            {lang === 'es' ? 'Sobre I Am Her' : 'About I Am Her'}
           </h1>
           <p>
             {lang === 'es'
@@ -76,8 +76,8 @@ export default function About({ lang = 'en' }) {
             </h2>
             <p>
               {lang === 'es'
-                ? 'I Am Here nació de la simple pero poderosa creencia de que las jóvenes del Bronx merecen más que promesas — merecen programas reales, apoyo real y personas que aparezcan para ellas sin importar qué.'
-                : 'I Am Here was born from the simple but powerful belief that young women in the Bronx deserve more than promises — they deserve real programs, real support, and real people who show up for them no matter what.'}
+                ? 'I Am Her nació de la simple pero poderosa creencia de que las jóvenes del Bronx merecen más que promesas — merecen programas reales, apoyo real y personas que aparezcan para ellas sin importar qué.'
+                : 'I Am Her was born from the simple but powerful belief that young women in the Bronx deserve more than promises — they deserve real programs, real support, and real people who show up for them no matter what.'}
             </p>
             <p>
               {lang === 'es'
